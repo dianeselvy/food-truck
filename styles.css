@@ -1,0 +1,84 @@
+body{
+	font-family:arial;
+	background:#FFEE55;
+}
+
+header {
+	text-align:center;
+	//color:#336600;
+	font-family: 'Libre Baskerville', serif;
+	text-shadow:1px 1px 0 #fff,
+				-1px -1px 0 #fff,
+				1px -1px 0 #fff,
+				-1px 1px 0 #fff,
+				0px 1px 0 #fff,
+				1px 0px 0 #fff,
+				0px -1px 0 #fff,
+				-1px 0px 0 #fff,
+				4px 4px 3px #336600;
+}
+
+fieldset legend {
+	font-size:20px;
+	font-family: 'Libre Baskerville', serif;
+	background:#ffffff;
+	border-radius:10px;
+	padding:5px;
+}
+
+#container {
+	margin:0px auto;
+	width:980px;
+	background:#66CC44;
+	padding:10px;
+	border-radius:25px;
+}
+#item1_toppings {
+	background:#99FF88;
+}
+#item2_toppings{
+	background:#99FF88;
+}
+
+#item1_toppings legend{
+	font-size:14px;
+	background:#99FF88;
+}
+#item2_toppings legend{
+	font-size:14px;
+	background:#99FF88;
+}
+
+#order_item1 {
+	background:#FFFF88;
+	padding:10px;
+	border-radius:10px;
+}
+#order_item2 {
+	background:#FFFF88;
+	padding:10px;
+	border-radius:10px;
+}
+
+body select {
+	border-radius:5px;
+}
+
+#item1_quantity {
+	border-radius:5px;
+}
+#topping1_quantity {
+	border-radius:5px;
+}
+#item2_quantity {
+	border-radius:5px;
+}
+#topping2_quantity {
+	border-radius:5px;
+}
+#submit_order {
+	border-radius:10px;
+	width:160px;
+	height:50px;
+	font-size:14px;
+}
